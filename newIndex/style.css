@@ -1,0 +1,258 @@
+body {
+    background-color: #565454;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: #333;
+    border-right: 1px solid #555;
+    transition: background-color 0.3s;
+}
+
+aside a {
+    display: block;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+aside a:hover {
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.02);
+
+}
+.works_Div{
+    margin-bottom: 20px;
+}
+#newWork_Form {
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+#addComment_Form {
+    transition: transform 0.3s;
+}
+
+#newWork_Form input[type="text"],
+#newWork_Form select,
+#newWork_Form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+#addComment_Form input[type="text"],
+#addComment_Form input[type="submit"] {
+
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+#addComment_Form input[type="submit"] {
+    width: 5%;
+}
+#newWork_Form input[type="submit"],#addComment_Form input[type="submit"],#login_Form input[type="submit"]  {
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#newWork_Form input[type="submit"]:hover,#addComment_Form input[type="submit"]:hover {
+    background-color: #003366;
+}
+
+#newWork_Form:hover,#addComment_Form:hover {
+    transform: scale(1.02);
+}
+#showHideFormBtn {
+    background-color: #00f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#showHideFormBtn:hover {
+    background-color: #003366;
+}
+
+main {
+    margin-left: 25%;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+#defaultContent_Section {
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+}
+
+#comments_Section,#work_Section{
+    margin-left: 50px;
+}
+.comment_Div{
+    border: 2px solid gray;
+}
+.comment_Div #commentText_P{
+    margin-left: 30px;
+
+}
+.comment_Div p{
+    margin-left: 10px;
+
+}
+#myWorks_Aside h2{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.usefulLings {
+    color: #00f;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.usefulLings:hover {
+    text-decoration: underline;
+    color: #003366;
+}
+
+main p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#usefulLings_Div a {
+    display: block;
+    margin-bottom: 10px;
+}
+#headerLink{
+    text-decoration: none;
+    color: white;
+}
+.log_regDiv {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.log_regDiv h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.log_regDiv form {
+    display: flex;
+    flex-direction: column;
+}
+
+.log_regDiv label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.log_regDiv input[type="text"],
+.log_regDiv input[type="password"],
+.log_regDiv input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.log_regDiv input[type="submit"] {
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.log_regDiv input[type="submit"]:hover {
+    background-color: #003366;
+}
+img#image1{
+    width: 20%;
+}
+img#image2{
+    width: 30%;
+
+}
+img#image3{
+    width: 45%;
+
+}
